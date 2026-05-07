@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Hubungi Kami</h2>
+<p>Silakan isi form di bawah ini:</p>
+<form method="POST">
+    <input type="text" name="nama" placeholder="Nama Anda" required>
+    <input type="email" name="email" placeholder="Email Anda" required>
+    <button type="submit">Kirim Pesan</button>
+</form>
+{% endblock %}
